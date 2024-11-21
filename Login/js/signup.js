@@ -77,7 +77,7 @@ document.getElementById("sign-up-form").addEventListener("submit", function(even
   else {
       alert("Register successfully!");
       setTimeout(function() {
-        window.location.href = "home.html"; // Thay "/user" bằng đường dẫn trang user của bạn
+        window.location.href = "application.html"; // Thay "/user" bằng đường dẫn trang user của bạn
       }, 700);
   }
 });
